@@ -49,6 +49,7 @@ echo "###################################"
 cd /tmp
 rm -rf webfiles
 echo
+CURRENT_IP=`hostname -I | awk '{print $2}'`
 echo "###################################"
-echo "Acess you Deployment at Public IP"
+echo "Acess you Deployment at $CURRENT_IP"
 echo "###################################"
